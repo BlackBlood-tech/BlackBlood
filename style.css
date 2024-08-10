@@ -1,0 +1,166 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+body {
+    color: #ededed;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 10%;
+    background: rgba(0, 0, 0, 0.589);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.logo {
+    position: relative;
+    font-size: 25px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+    text-decoration: none;
+    margin-left: 30px;
+    display: inline-block;
+    padding: 12px 12px;
+    background: rgb(0, 0, 0);
+    border-radius: 10px;
+    font-size: 16px;
+    color: rgb(1, 17, 1);
+    letter-spacing: 1px;
+    font-weight: 600;
+    transition: .50s;
+    border: solid white 2px;
+}
+.navbar a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 10px;
+    display: inline-block;
+    padding: 12px 12px;
+    background: white;
+    border-radius: 2px;
+    font-size: 16px;
+    color: rgb(1, 17, 1);
+    letter-spacing: 1px;
+    font-weight: 600;
+    transition: .50s;
+}
+.logo:hover
+{
+    box-shadow: 0 0 5px whitesmoke,
+        0 0 25px whitesmoke, 0 0 50px whitesmoke,
+        0 0 100px whitesmoke, 0 0 200px whitesmoke
+}
+
+
+.navbar a:hover {
+    color: red;
+    box-shadow: 0 0 5px whitesmoke,
+        0 0 25px whitesmoke, 0 0 50px whitesmoke,
+        0 0 100px whitesmoke, 0 0 200px whitesmoke
+}
+
+.home {
+    position: relative;
+    width: 100%;
+    justify-content: space-between;
+    height: 100vh;
+    background: url(call-of-duty-modern-warfare-ghost-soldier-season-2-uhdpaper.com-hd-7.1244.jpg)no-repeat center center fixed;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    padding: 70px 10% 0;
+}
+
+.home-content {
+    max-width: 600px;
+}
+
+.home-content h3 {
+    font: size 32px;
+    font-weight: 100;
+    color: rgb(255, 255, 255);
+}
+
+.home-content h1 {
+    font-size: 56px;
+    font-weight: 100;
+    color: rgb(255, 255, 255);
+
+}
+
+.home-content p {
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+
+}
+
+.btn-box {
+    display: inline-block;
+    padding: 12px 28px;
+    background: white;
+    border-radius: 40px;
+    font-size: 16px;
+    color: rgb(1, 17, 1);
+    letter-spacing: 1px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: .50s;
+}
+
+.btn-box:hover {
+    box-shadow: 0 0 5px whitesmoke,
+        0 0 25px whitesmoke, 0 0 50px whitesmoke,
+        0 0 100px whitesmoke, 0 0 200px whitesmoke
+}
+
+
+
+
+.youtube {
+    display: inline-block;
+    text-decoration: none;
+    margin-left: 1px;
+    padding: 2px 2px;
+    background:rgb(255, 255, 255);
+    border-radius: 3px;
+    font-size: 1px;
+    transition: .50s;
+    
+
+}
+.youtube p {
+    color: black;
+}
+
+.youtube:hover {
+    box-shadow: 0 0 5px whitesmoke,
+        0 0 25px whitesmoke, 0 0 50px whitesmoke,
+        0 0 100px whitesmoke, 0 0 200px whitesmoke
+}
+@media (max-width: 768px) {
+  .header a{
+    padding: 5px;
+    font-size: 15px;
+    margin: 1px;
+  } 
+}
+
+@media (max-width: 480px) {
+  
+}
+@media (max-width: 375px) {
+
+}
+
